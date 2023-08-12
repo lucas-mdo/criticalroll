@@ -19,7 +19,10 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       home: const Scaffold(
-        body: GradientContainer(),
+        body: GradientContainer(
+          Colors.deepPurple,
+          Colors.deepPurpleAccent,
+        ),
       ),
     );
   }
